@@ -2,6 +2,7 @@
 [Project Portfolio](https://karthikkamaldinni.github.io/KARTHIK_DAA_portfolio/)
 
 # ABOUT : POLLUTION
+![image](https://github.com/user-attachments/assets/537d866c-f2a6-4238-8148-b7df362e08da)
 
 
 Pollution refers to the introduction of harmful substances or contaminants into the environment, resulting in adverse effects on ecosystems, human health, and the planet. These substances can be natural (e.g., volcanic ash) or human-made (e.g., industrial waste), and they disrupt the natural balance of air, water, soil, and other elements of the environment.
