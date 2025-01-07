@@ -3,6 +3,9 @@
 
 [ALGORITHMS USED :](https://github.com/KarthikKamaldinni/KARTHIK_DAA_portfolio/blob/main/ALGORTHMS%20USED%20IN%20POLLUTION.txt)
 
+[AIR_AWARE DATA:](https://github.com/KarthikKamaldinni/KARTHIK_DAA_portfolio/blob/main/Airawar%20_pollution_data.txt)
+
+
 
 # ABOUT : POLLUTION
 ![image](https://github.com/user-attachments/assets/537d866c-f2a6-4238-8148-b7df362e08da)
