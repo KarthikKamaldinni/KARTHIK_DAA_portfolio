@@ -1,10 +1,9 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
@@ -17,40 +16,61 @@
 
         header {
             text-align: center;
-            background: linear-gradient(to right, #6a11cb, #2575fc);
+            padding: 100px 20px;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://via.placeholder.com/1920x600') center/cover no-repeat;
             color: white;
-            padding: 50px 20px;
+            position: relative;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+            border: 5px solid white;
         }
 
         header h1 {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin-bottom: 10px;
         }
 
         header p {
             font-size: 1.2rem;
             margin: 0;
+            opacity: 0.9;
+        }
+
+        #upload-section {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        #upload-section input {
+            margin-top: 10px;
+            font-size: 1rem;
         }
 
         section {
-            max-width: 800px;
-            margin: 40px auto;
+            max-width: 900px;
+            margin: -60px auto 40px auto;
             background: white;
-            padding: 20px 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
         }
 
         h2 {
             color: #2575fc;
             font-size: 1.8rem;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             border-bottom: 2px solid #f4f4f9;
             padding-bottom: 5px;
         }
 
         ul {
-            list-style-type: none;
+            list-style: none;
             padding: 0;
         }
 
@@ -66,6 +86,7 @@
         a {
             color: #2575fc;
             text-decoration: none;
+            font-weight: 600;
         }
 
         a:hover {
@@ -95,6 +116,22 @@
             text-align: center;
             border-left: 4px solid #2575fc;
             padding-left: 15px;
+            background-color: #f9f9ff;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2575fc;
+            color: white;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: underline;
         }
 
         @media (max-width: 768px) {
@@ -113,19 +150,35 @@
             h2 {
                 font-size: 1.5rem;
             }
+
+            header img {
+                width: 150px;
+                height: 150px;
+            }
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Hello, I'm KARTHIK 👋</h1>
+    <header id="header">
+        <!-- Placeholder for the profile picture -->
+        <img id="profile-picture" src="https://via.placeholder.com/200" alt="Profile Picture">
+        <h1>KARTHIK KAMALDINNI</h1>
         <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
     </header>
 
+    <!-- Section to upload profile picture -->
+    <div id="upload-section">
+        <label for="profile-upload">Upload Your Profile Picture:</label>
+        <input type="file" id="profile-upload" accept="image/*"><br><br>
+
+        <label for="background-upload">Upload Background Image:</label>
+        <input type="file" id="background-upload" accept="image/*">
+    </div>
+
     <section>
-        <h2>🛠 Projects</h2>
+        <h2>🛠 Project</h2>
         <ul>
-            <li><strong>Project 1</strong>: POLLUTION</li>
+            <li><strong>Project </strong>: POLLUTION AWARE</li>
         </ul>
 
         <h2>🚀 Skills</h2>
@@ -165,5 +218,35 @@
 
         <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
     </section>
+
+    <footer>
+        © 2025 KARTHIK KAMALDINNI | <a href="https://github.com/KarthikKamaldinni" target="_blank">GitHub</a>
+    </footer>
+
+    <script>
+        // Update profile picture dynamically
+        document.getElementById('profile-upload').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    document.getElementById('profile-picture').src = e.target.result;
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+
+        // Update header background dynamically
+        document.getElementById('background-upload').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    document.getElementById('header').style.backgroundImage = `linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${e.target.result})`;
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
 </body>
 </html>
