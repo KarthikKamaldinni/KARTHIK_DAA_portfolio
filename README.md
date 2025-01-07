@@ -1,5 +1,4 @@
 # KARTHIK_DAA_portfolio
-<span style="color:darkblue;">ABOUT : POLLUTION</span>
 # ABOUT : POLLUTION
 
 
