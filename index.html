@@ -224,26 +224,44 @@
     </footer>
 
     <script>
-        // Update profile picture dynamically
+        // Load previously stored images from localStorage
+        window.onload = function() {
+            const profilePic = localStorage.getItem('profilePic');
+            const backgroundPic = localStorage.getItem('backgroundPic');
+
+            if (profilePic) {
+                document.getElementById('profile-picture').src = profilePic;
+            }
+
+            if (backgroundPic) {
+                document.getElementById('header').style.backgroundImage = `linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${backgroundPic})`;
+            }
+        };
+
+        // Update profile picture dynamically and store in localStorage
         document.getElementById('profile-upload').addEventListener('change', function(event) {
             const file = event.target.files[0];
             if (file) {
                 const reader = new FileReader();
                 reader.onload = function(e) {
-                    document.getElementById('profile-picture').src = e.target.result;
-                }
+                    const result = e.target.result;
+                    document.getElementById('profile-picture').src = result;
+                    localStorage.setItem('profilePic', result); // Save image to localStorage
+                };
                 reader.readAsDataURL(file);
             }
         });
 
-        // Update header background dynamically
+        // Update header background dynamically and store in localStorage
         document.getElementById('background-upload').addEventListener('change', function(event) {
             const file = event.target.files[0];
             if (file) {
                 const reader = new FileReader();
                 reader.onload = function(e) {
-                    document.getElementById('header').style.backgroundImage = `linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${e.target.result})`;
-                }
+                    const result = e.target.result;
+                    document.getElementById('header').style.backgroundImage = `linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${result})`;
+                    localStorage.setItem('backgroundPic', result); // Save image to localStorage
+                };
                 reader.readAsDataURL(file);
             }
         });
