@@ -2,12 +2,20 @@
 # ABOUT : POLLUTION
 Pollution refers to the introduction of harmful substances or contaminants into the environment, resulting in adverse effects on ecosystems, human health, and the planet. These substances can be natural (e.g., volcanic ash) or human-made (e.g., industrial waste), and they disrupt the natural balance of air, water, soil, and other elements of the environment.
 
-**General Description**
-Project Overview: A brief description of the project, explaining its focus on addressing multiple types of pollution and their impact on the environment.
-Goal: Highlight the project's purpose, such as raising awareness, providing solutions, or offering a data-driven analysis of pollution's effects.
-Features: List the main functionalities of the project, such as data visualization, prediction models, or pollution mitigation strategies.
-Technologies Used: Mention the programming languages, libraries, frameworks, or tools used in the project.
-Target Audience: Specify who the project is for—researchers, students, policymakers, or environmental activists.
+### Project Overview
+- A brief description of the project, explaining its focus on addressing multiple types of pollution and their impact on the environment.
+
+### Goal
+- Highlight the project's purpose, such as raising awareness, providing solutions, or offering a data-driven analysis of pollution's effects.
+
+### Features
+- List the main functionalities of the project, such as data visualization, prediction models, or pollution mitigation strategies.
+
+### Technologies Used
+- Mention the programming languages, libraries, frameworks, or tools used in the project.
+
+### Target Audience
+- Specify who the project is for—researchers, students, policymakers, or environmental activists.
 
 
 **Types of Pollution**
