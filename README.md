@@ -69,3 +69,40 @@ Pollution refers to the introduction of harmful substances or contaminants into 
    - **Monitoring Systems:** Implement IoT-based tools for real-time monitoring of sewage levels and quality.
    - **Visualization:** Show data on untreated sewage discharge and its impact on nearby areas.
    - **Policy Recommendations:** Suggest guidelines for better sewage management.
+
+ # ABOUT : ALGORITHEMS USED 
+
+1. **Brute Force**
+   - **Bubble Sort and Selection Sort:** For ranking zones based on pollution levels.
+   - **Linear Search:** To query specific pollution data by ID or zone.
+   - **String Processing:** Handle pollution data or alert messages.
+
+2. **Divide and Conquer**
+   - **Binary Search:** Quickly identify if pollution exceeds threshold levels.
+   - **Merge Sort and Quick Sort:** Sort zones by pollution levels or other metrics.
+
+3. **Decrease and Conquer**
+   - **Insertion Sort:** Maintain sorted lists of pollution records or alerts.
+
+4. **Graph Traversal**
+   - **Breadth-First Search (BFS):** Analyze pollution spread across zones.
+   - **Depth-First Search (DFS):** Find connected zones or paths with specific pollution levels.
+
+5. **Dijkstra’s Algorithm**
+   - Find shortest paths for resource allocation (e.g., air purifiers) in the city.
+
+6. **Kruskal’s/Prim’s Algorithm**
+   - Build a minimum spanning tree for efficiently connecting zones with pollution control systems.
+
+7. **Clustering (e.g., K-Means)**
+   - Group zones with similar pollution levels for targeted action.
+
+8. **Sliding Window Algorithm**
+   - Calculate moving averages of pollution over time for real-time monitoring.
+
+9. **Threshold Detection**
+   - Trigger alerts when pollution crosses predefined thresholds (linear or binary search).
+
+10. **Dynamic Programming (DP)**
+    - Allocate resources optimally to minimize overall pollution impact.
+
