@@ -5,6 +5,15 @@
 
 [AIR_AWARE DATA](https://github.com/KarthikKamaldinni/KARTHIK_DAA_portfolio/blob/main/Airawar%20_pollution_data.txt)
 
+[SOIL POLLUTION DATA](https://github.com/KarthikKamaldinni/KARTHIK_DAA_portfolio/blob/main/soil_data.txt)
+
+[POLLUTION AWARE CODE](https://github.com/KarthikKamaldinni/KARTHIK_DAA_portfolio/blob/main/T05_DAA_FINAL_COLOURED.cpp)
+
+[POLLUTION AWARE PDF](https://github.com/KarthikKamaldinni/KARTHIK_DAA_portfolio/blob/main/T05_POLLUTION_PPT.pdf)
+
+[POLLUTION AWARE PPT](https://github.com/KarthikKamaldinni/KARTHIK_DAA_portfolio/blob/main/T05_POLLUTION_PPT.pptx)
+
+
 
 
 # ABOUT : POLLUTION
