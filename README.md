@@ -12,8 +12,13 @@ Target Audience: Specify who the project is for—researchers, students, policym
 
 **Types of Pollution**
 
-**1. Soil Pollution**
- Definition and Causes: Introduce soil pollution and its common causes, such as agricultural chemicals and industrial waste. Features: Tools for analyzing soil quality, predicting contamination, or visualizing pollution hotspots. Dataset: Include data on soil contamination levels from various regions. Solutions: Highlight techniques for soil remediation, such as bioremediation or soil washing. Impact: Explain how soil pollution affects agriculture, food safety, and ecosystems. 
+1. **Soil Pollution**
+   - **Definition and Causes:** Introduce soil pollution and its common causes, such as agricultural chemicals and industrial waste.
+   - **Features:** Tools for analyzing soil quality, predicting contamination, or visualizing pollution hotspots.
+   - **Dataset:** Include data on soil contamination levels from various regions.
+   - **Solutions:** Highlight techniques for soil remediation, such as bioremediation or soil washing.
+   - **Impact:** Explain how soil pollution affects agriculture, food safety, and ecosystems.
+
 
 **2. Land Pollution**
 Focus Areas: Address issues like illegal dumping, landfills, and plastic waste. Interactive Features: Visualization of waste accumulation and its geographic distribution. Waste Management Models: Implement algorithms for efficient waste segregation, recycling, and disposal. Case Studies: Include examples of land pollution scenarios and remediation efforts. Educational Tools: Provide resources for public awareness campaigns.
